@@ -1,0 +1,14 @@
+{
+  "name": "worst-answer-wins-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Realtime room server for Worst Answer Wins",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
